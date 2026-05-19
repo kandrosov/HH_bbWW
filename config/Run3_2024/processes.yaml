@@ -88,7 +88,6 @@ XtoHHto2B2W_DoubleLepton:
   datasets: [ ]
 
 
-
 XtoHHto2B2W_SingleLepton:
   name: "XtoHHto2B2W_SingleLepton"
   color: "kBlack"
