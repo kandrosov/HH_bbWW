@@ -13,62 +13,62 @@ DYto2L_InclusivePlusBinned:
     Vpt:
       type: DY
       stages: [ 'AnalysisCache', 'HistTuple' ]
-  datasets: []
+  datasets: [ ]
 
 DY_M_10to50:
   name: "DY M10to50"
   color: "kAzure+10"
-  datasets: []
+  datasets: [ ]
 
 DYto2E_M_50:
   processors: *DY_processors
-  datasets: []
+  datasets: [ ]
 
 DYto2Mu_M_50:
   processors: *DY_processors
-  datasets: []
+  datasets: [ ]
 
 DYto2Tau_M_50:
   processors: *DY_processors
-  datasets: []
+  datasets: [ ]
 
 DY_LO:
-  datasets: []
+  datasets: [ ]
 
 TT:
   name: "t#bar{t}"
   color: "kGreen-3"  # eliminates need for plot.yaml
-  datasets: []
+  datasets: [ ]
 
 ST:
   name: "ST"
   color: "kPink+1"
-  datasets: []
+  datasets: [ ]
 
 DY_LowMass:
   name: "DY M10to50"
   color: "kAzure+10"
-  datasets: []
+  datasets: [ ]
 
 DY_HighMass:
   name: "DY M50"
   color: "kAzure+7"
-  datasets: []
+  datasets: [ ]
 
 W:
   name: "W"
   color: "kGreen"  # eliminates need for plot.yaml
-  datasets: []
+  datasets: [ ]
 
 VV:
   name: "VV"
   color: "kGreen+2"  # eliminates need for inputs.yaml
-  datasets: []
+  datasets: [ ]
 
 SingleHiggs:
   name: "Single Higgs"
   color: "kRed"
-  datasets: []
+  datasets: [ ]
 
 XtoHHto2B2W_DoubleLepton:
   name: "XtoHHto2B2W_DoubleLepton"
@@ -85,7 +85,7 @@ XtoHHto2B2W_DoubleLepton:
       - [ '1000' ]
     plot_color: [ "kBlack", "kBlue", "kRed" ]
     channels: [ "eE", "eMu", "muMu" ]
-  datasets: []
+  datasets: [ ]
 
 
 
@@ -104,11 +104,11 @@ XtoHHto2B2W_SingleLepton:
       - [ '1000' ]
     plot_color: [ "kBlack", "kBlue", "kRed" ]
     channels: [ "e", "mu" ]
-  datasets: []
+  datasets: [ ]
 
 Data_Full:
   name: "Data"
-  datasets: []
+  datasets: [ ]
 
 custom_CI:
   name: "custom for CI and test purposes"
