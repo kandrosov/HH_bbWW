@@ -16,6 +16,7 @@ bundles:
       - soft/flaf_env
       - Corrections
       - DeepHME
+      - Studies
       - include
   cmssw:
     period_specific: false
